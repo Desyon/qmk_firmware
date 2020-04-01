@@ -1,12 +1,5 @@
-/*
-Set up RGB Matrix:
-
-1. Disable almost all effects
-2. Set defaults
-  2.1 Color + Brighness
-  2.2 Effect
-*/
-
+// Disable a bunch of RGB_MATRIX effects
+// TODO: figure out a better way to manage effects
 // Default
 #define DISABLE_RGB_MATRIX_ALPHAS_MODS
 // #define DISABLE_RGB_MATRIX_GRADIENT_UP_DOWN
@@ -46,6 +39,7 @@ Set up RGB Matrix:
 #define DISABLE_RGB_MATRIX_SOLID_SPLASH
 #define DISABLE_RGB_MATRIX_SOLID_MULTISPLASH
 
+// Set default config for RGB_MATRIX
 #define RGB_MATRIX_STARTUP_HUE 128
 #define RGB_MATRIX_STARTUP_SAT 255
 #define RGB_MATRIX_STARTUP_VAL 192

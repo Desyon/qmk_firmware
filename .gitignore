@@ -57,6 +57,7 @@ util/Win_Check_Output.txt
 .vscode/ipch/
 .stfolder
 .tags
+*.code-workspace
 
 # ignore image files
 *.png
