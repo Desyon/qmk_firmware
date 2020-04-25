@@ -13,13 +13,17 @@
         "keyboards/mas[^s]*": true,
     },
     "files.associations": {
-      "*.h": "c",
-      "*.c": "c",
-      "*.inc": "c",
-      "*.cpp": "cpp",
-      "*.hpp": "cpp",
-      "xstddef": "c",
-      "type_traits": "c",
-      "utility": "c"
+        "*.h": "c",
+        "*.c": "c",
+        "*.inc": "c",
+        "*.cpp": "cpp",
+        "*.hpp": "cpp",
+        "xstddef": "c",
+        "type_traits": "c",
+        "utility": "c"
+    },
+    "[markdown]": {
+        "editor.trimAutoWhitespace": false,
+        "files.trimTrailingWhitespace": false
     }
 }
